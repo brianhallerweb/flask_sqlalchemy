@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<main>
+  {% for name in names %}
+  <h3>{{name.name}}</h3>
+  {% endfor %}
+</main>
+
+{% endblock %}

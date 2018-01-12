@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Brian Haller</title>
+    <link rel="stylesheet" href={{ url_for('static', filename='styles.css') }}>
+
+  </head>
+  <body>
+    <header>
+      <h1 >Flask with SQLite and SQLAlchemy</h1>
+    </header>
+    
+    <div class="container">
+      {% block body %}{% endblock %}
+    </div>
+
+  </body>
+</html>

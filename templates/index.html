@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<main>
+  <h3>Enter a new dog name</h3>
+<form method="post" action="/addname">
+  <input type="text" name="name">
+  <button type="submit">Submit</button>
+</form>
+<a href="/getnames">see dog names</a>
+
+</main>
+
+{% endblock %}
